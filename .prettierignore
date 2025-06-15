@@ -1,0 +1,18 @@
+# Ignore everything by default
+/*
+
+# Except src folder
+!src/
+!src/**
+
+# Except these root files (allow them)
+!postcss.config.mjs
+!next.config.ts
+!README.md
+!tsconfig.json
+!eslint.config.mjs
+
+# Ignore lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
